@@ -11,7 +11,7 @@ USER root
 
 WORKDIR /src
 
-COPY requirements.txt requirements.txt
+COPY analytics/requirements.txt requirements.txt
 
 RUN apt update -y && apt install -y build-essential libpq-dev 
 
